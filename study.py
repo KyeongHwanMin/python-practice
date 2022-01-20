@@ -209,3 +209,37 @@
 # print(result7)
 # print(result8)
 # print(reuslt9)
+
+#list comprehension
+size = 10
+arr = [i *2 for i in range(size)]
+print(arr)
+new_arr = [ n*n for n in arr]
+print(new_arr)
+word = '가나다'
+print([c*2 for c in word]) # 파이썬에서 문자열은 한글자씩 순회 가능
+arr = [ i for i in range(1,11) if i % 2 == 0]
+print(arr)
+arr = [i for i in range(1, 31) if i % 2 == 0 if i % 3 == 0] # 'and' 없이 조건문을 나열하면 AND 조건으로 계산됨. 'and' 명시 해주면 에러뜸
+print(arr)
+arr = [i for i in range(1,31) if i % 2 == 0 or i % 3==0] # if 문을 1개만 쓰고 'or' 연산자로 논리 연산을 묶어준다.
+print(arr)
+
+# ===========================
+#set comprehension 기호 {}
+set_boy = {n**2 for n in range(10)} 
+print(set_boy)
+print(set(range(10)))
+
+#dict compreshension 기호 {}
+#set 과의 구분  key : value 쌍을 써주고, 사용하는 변수를 두개로 둔다.
+from string import ascii_lowercase as LOWERS
+dict_boy = { k:v for k, v in zip(LOWERS, range(1,28))}
+print(dict_boy)
+print(dict(zip(LOWERS, range(1, len(LOWERS)+1))))
+
+#tuple compreshension 기호 () 
+tuple_boy = (n for n in range(1,10)) # ()는 제네레이터(순회객체)를 생성하는 generator comprehension이다.
+print(tuple_boy)
+tuple_boy = tuple(n for n in range(1,10))
+print(tuple_boy)
