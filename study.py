@@ -158,21 +158,34 @@
 # c.os_output()
 
 
-class Store:
-    def __init__(self, jjajang, jjampong):
-        self.jjajang = jjajang 
-        self.jjampong = jjampong
+# class Store:
+#     def __init__(self, jjajang, jjampong):
+#         self.jjajang = jjajang 
+#         self.jjampong = jjampong
 
-    def total_order(self):
-        return (self.jjajang + self.jjampong)
+#     def total_order(self):
+#         return (self.jjajang + self.jjampong)
 
-    @classmethod 
-    def same4each(cls):
-        print("dddddd")
+#     @classmethod 
+#     def same4each(cls):
+#         print("dddddd")
 
-    @staticmethod
-    def nameofstore():
-        print("북경반점")
+#     @staticmethod
+#     def nameofstore():
+#         print("북경반점")
 
-Order = Store(3,2)
-Order.same4each()
+# Order = Store(3,2)
+# Order.same4each()
+
+# str메서드 : 클래스 자체의 내용을 출력하고 싶을때
+# class Blog():
+#     def __init__(self, title, date):
+#         self.title = title
+#         self.date = date
+#     def __str__(self):
+#         return f"제목:{self.title}, 날짜:{self.date}"
+
+# blog = Blog('파이썬',2022)
+# print(blog)
+
+    
