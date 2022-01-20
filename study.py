@@ -188,4 +188,24 @@
 # blog = Blog('파이썬',2022)
 # print(blog)
 
-    
+
+# # or 연산자 1나만 참이면 참
+# result1 = 1 or True 
+# result2 = False or 1 
+# result3 = False or False or 2 
+# #and 연산자 둘다 참이여야 참
+# result4 = True and False 
+# result5 = True and False or 'a' # a 출력
+# result6 = 1 != 1 and 2 or 3 # 3 출력
+# result7 = 'a' if True else 'b'
+# result8 = 'a' if 1 == 2 else 'b'
+# reuslt9 = 'a' if 1 == 1 else 'b'
+# print(result1)
+# print(result2)
+# print(result3)
+# print(result4)
+# print(result5)
+# print(result6)
+# print(result7)
+# print(result8)
+# print(reuslt9)
