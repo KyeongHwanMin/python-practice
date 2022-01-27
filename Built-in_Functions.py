@@ -230,15 +230,3 @@
 # dir(object) : 객체가 자체적으로 가지고 있는 변수나 함수를 보여줌.
 # print(dir([1, 2, 3]))
 # print(dir({'1': 'a'}))
-
-
-def spam(eggs):
-    eggs.append(1)  # call by reference로 동작 / caller scope까지 적용
-    # call by value로 동작, 새로운 객체를 가르킨다. / callee scope에는 적용되지만, caller scope까지는 적용되지 않는다.
-    eggs = [2, 3]
-    print(eggs)
-
-
-ham = [0]
-# spam(ham)  # [2, 3]
-print(ham)  # [0, 1]
