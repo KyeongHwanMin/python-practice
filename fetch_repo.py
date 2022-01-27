@@ -2,25 +2,47 @@ import os
 
 
 repo_urls = [
-    'https://github.com/ohgyulim/backend-mission',
-    'https://github.com/SangRakee/backend-mission',
-    'https://github.com/zoonong/backend-mission',
-    'https://github.com/dhleeone/backend-mission',
-    'https://github.com/jennharw/backend-mission',
-    'https://github.com/SMin1620/backend-mission',
-    'https://github.com/komo3344/backend-mission',
+    # 'https://github.com/ohgyulim/backend-mission',
+    # 'https://github.com/SangRakee/backend-mission',
+    # 'https://github.com/zoonong/backend-mission',
+    # 'https://github.com/dhleeone/backend-mission',
+    # 'https://github.com/jennharw/backend-mission',
+    # 'https://github.com/SMin1620/backend-mission',
+    # 'https://github.com/komo3344/backend-mission',
+    # 'https://github.com/KimKyeongJun/backend-mission',
+    # 'https://github.com/Hyes-y/backend-mission',
+    # 'https://github.com/ulr0/backend-mission',
+    # 'https://github.com/601chl/backend-mission',
+    # 'https://github.com/sjy5386/backend-mission',
+    # 'https://github.com/KyeongHwanMin/backend-mission',
+    # 'https://github.com/wlsgh7608/backend-mission',
+    # 'https://github.com/sohyeong-dev/backend-mission',
+    # 'https://github.com/oswaldeff/backend-mission',
+    # 'https://github.com/seah526/backend-mission',
+    # 'https://github.com/tc-ha/backend-mission',
+    # 'https://github.com/NQ-OO/backend-mission'
+    
+
+    # 3주차
     'https://github.com/KimKyeongJun/backend-mission',
-    'https://github.com/Hyes-y/backend-mission',
-    'https://github.com/ulr0/backend-mission',
-    'https://github.com/601chl/backend-mission',
-    'https://github.com/sjy5386/backend-mission',
-    'https://github.com/KyeongHwanMin/backend-mission',
-    'https://github.com/wlsgh7608/backend-mission',
+    'https://github.com/SangRakee/backend-mission',
+    'https://github.com/komo3344/backend-mission',
+    'https://github.com/dhleeone/backend-mission',
     'https://github.com/sohyeong-dev/backend-mission',
-    'https://github.com/oswaldeff/backend-mission',
-    'https://github.com/seah526/backend-mission',
+    'https://github.com/KyeongHwanMin/backend-mission',
+    'https://github.com/ulr0/backend-mission/tree/feature/week3',
+    'https://github.com/ohgyulim/backend-mission',
+    'https://github.com/sjy5386/backend-mission',
     'https://github.com/tc-ha/backend-mission',
-    'https://github.com/NQ-OO/backend-mission'
+    'https://github.com/zoonong/backend-mission',
+    'https://github.com/Hyes-y/backend-mission',
+    'https://github.com/wlsgh7608/backend-mission/tree/jinho',
+    'https://github.com/seah526/backend-mission/tree/week3',
+    'https://github.com/SMin1620/backend-mission',
+    'https://github.com/NQ-OO/backend-mission',
+    'https://github.com/601chl/backend-mission',
+    'https://github.com/oswaldeff/backend-mission',
+    'https://github.com/jennharw/backend-mission/tree/harim3'
 ]
 
 repo_urls = set(repo_urls)  # 중복제거를 위함
